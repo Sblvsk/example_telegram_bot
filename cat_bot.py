@@ -1,9 +1,10 @@
 import time
 from telegram import Bot
 
-from secrets import bot_token
 
-chat_id = -746971837
+from secrets import bot_token, id_chat
+
+chat_id = id_chat
 bot = Bot(bot_token)
 
 def send_random_cat():
